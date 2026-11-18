@@ -487,8 +487,7 @@
       <nav class="nav-tabs">
         <button class="tab-btn active" data-tab="showcase" onclick="setActiveTab('showcase')">🎮 Games</button>
         <button class="tab-btn" data-tab="privacy" onclick="setActiveTab('privacy')">🔒 Privacy Policy</button>
-        <button class="tab-btn" data-tab="terms" onclick="setActiveTab('terms')">📜 Terms</button>
-        <button class="tab-btn" data-tab="credits" onclick="setActiveTab('credits')">🫧 Credits</button>
+        <button class="tab-btn" data-tab="terms" onclick="setActiveTab('terms')">📜 Terms of Service</button>
       </nav>
     </div>
   </header>
@@ -544,134 +543,214 @@
       </div>
     </section>
 
-    <!-- TAB 2: PRIVACY POLICY (MULTI-GAME STUDIO POLICY) -->
+    <!-- TAB 2: PRIVACY POLICY (COMMERCIAL STUDIO GRADE) -->
     <section id="privacy" class="content-panel">
       <div class="legal-card">
         <div class="legal-header">
           <h1 class="legal-title">Privacy Policy</h1>
-          <p class="legal-meta">Effective Date: October 2026 | Developer: <strong>Brijesh Ahervar (Indie Mobile Games)</strong></p>
+          <p class="legal-meta">Effective Date: November 18, 2026 | Developer: <strong>Brijesh Ahervar (Indie Mobile Games)</strong></p>
         </div>
 
         <div class="highlight-box">
           <div style="font-size: 24px;">🛡️</div>
           <p>
-            <strong>Zero Tracking Promise:</strong> Indie Mobile Games does NOT collect, sell, or monetize personal identifiers, device contacts, microphone audio, camera feeds, or precise GPS locations. Our games are built strictly for safe, fun entertainment.
+            <strong>Strict Data Minimization Guarantee:</strong> Indie Mobile Games does NOT collect, sell, rent, or trade your personal identifiable information (such as your name, email, phone number, contacts, camera, or precise GPS location). Our games are engineered strictly for safe, fun, and private entertainment.
           </p>
         </div>
 
-        <h2>1. Scope of This Policy</h2>
+        <h2>1. Scope & Application</h2>
         <p>
-          This Privacy Policy applies to all mobile games and web browser applications published by <strong>Brijesh Ahervar / Indie Mobile Games</strong>, including our flagship title <strong>Wrong Tap</strong> and any future game releases.
+          This Privacy Policy governs the collection, use, and disclosure of information across all video games, mobile applications, and web browser releases developed and published by <strong>Brijesh Ahervar / Indie Mobile Games</strong> ("we", "us", or "our"), including our flagship reflex title <strong>Wrong Tap</strong> (formerly "Don't Touch Bubble") and our studio web portal.
         </p>
 
         <h2>2. Information We Do NOT Collect</h2>
-        <p>We believe players deserve respect and transparency. Our games:</p>
-        <ul>
-          <li>Do <strong>NOT</strong> collect your legal name, physical address, email address, or phone number.</li>
-          <li>Do <strong>NOT</strong> access device cameras, photo galleries, or microphones.</li>
-          <li>Do <strong>NOT</strong> track or log precise GPS coordinates.</li>
-          <li>Do <strong>NOT</strong> sell user profiling data to third-party data brokers.</li>
-        </ul>
-
-        <h2>3. Local Storage & Player Progression</h2>
         <p>
-          To maintain your game progression without requiring forced accounts or logins, our games store data locally on your device (via encrypted Unity PlayerPrefs / browser LocalStorage):
+          We adhere to strict data minimization principles. When you play our games or visit our site, we do not require user account registration, social media logins, or permission to access personal device hardware. Specifically, we do <strong>NOT</strong>:
         </p>
         <ul>
-          <li><strong>Progress Data:</strong> Level unlocks, 3-star scores, earned coins, and milestone achievements.</li>
-          <li><strong>Player Preferences:</strong> Music and sound effect volume levels, screen orientation, and selected language.</li>
+          <li>Collect or store real names, home or postal addresses, or telephone numbers.</li>
+          <li>Access or read device address books, contacts, camera sensors, photo libraries, or microphones.</li>
+          <li>Track, record, or transmit precise physical GPS geolocation coordinates.</li>
+          <li>Sell, share, or broker user personal profiles to third-party data brokers or marketing aggregators.</li>
         </ul>
-        <p>This data stays on your device and can be reset at any time by clearing your browser cache or app storage.</p>
+
+        <h2>3. Local Storage & Client-Side Progression Data</h2>
+        <p>
+          To deliver seamless offline and in-browser gameplay without forcing account sign-ins, our games store gameplay state locally on your device (utilizing Unity PlayerPrefs on mobile and LocalStorage/IndexedDB in WebGL browsers):
+        </p>
+        <ul>
+          <li><strong>Gameplay Progression:</strong> Unlocked level milestones, 3-star stage ratings, high score records, earned virtual coins/gems, and achievement progress.</li>
+          <li><strong>Audio & Interface Settings:</strong> Sound effect volume, background music toggle, screen orientation preferences, and selected language.</li>
+        </ul>
+        <p>
+          <strong>Player Control:</strong> This progression data remains stored solely within your local device or browser sandbox. You can reset or permanently delete all local game data at any time by clearing your browser cache/storage or uninstalling the mobile application.
+        </p>
 
         <h2>4. Third-Party Advertising & Platform SDKs</h2>
         <p>
-          Our games may be distributed on platforms such as <strong>CrazyGames</strong> and mobile app stores. To support free gameplay, optional advertisements (such as Rewarded Video Ads for extra lives or victory bonuses) may be served via trusted partners:
+          To maintain <em>Wrong Tap</em> as a 100% free-to-play experience without pay-to-win mechanics, our games may display optional advertisements (such as Rewarded Video Ads for extra lives, level restarts, or 2x coin multipliers) served by vetted, industry-standard advertising partners:
         </p>
         <ul>
-          <li><strong>CrazyGames SDK (v3 Web API):</strong> Delivers family-friendly, non-intrusive advertisements on HTML5 web builds. <a href="https://www.crazygames.com/privacy-policy" target="_blank" rel="noopener">CrazyGames Privacy Policy</a></li>
-          <li><strong>Unity Ads / Google AdMob:</strong> Serves contextual, child-safe ads compliant with platform standards.</li>
+          <li>
+            <strong>CrazyGames B.V. (Unity Web SDK / Web API):</strong> Serves non-intrusive, family-friendly WebGL advertisements and ensures appropriate frequency capping. Review their practices at the <a href="https://www.crazygames.com/privacy-policy" target="_blank" rel="noopener">CrazyGames Privacy Policy</a>.
+          </li>
+          <li>
+            <strong>Unity Ads / Google AdMob (Mobile & WebGL):</strong> Delivers contextual, platform-compliant video advertisements. Review the <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Unity Privacy Policy</a> and <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.
+          </li>
         </ul>
-        <p>These SDKs may process anonymized, non-personal diagnostic telemetry (such as device model, OS version, or approximate country) strictly to serve valid ad impressions.</p>
-
-        <h2>5. Children's Online Privacy (COPPA & Global Compliance)</h2>
         <p>
-          Our games are designed for general audiences and family-friendly play. We strictly adhere to the <strong>Children's Online Privacy Protection Act (COPPA)</strong> and global child safety guidelines. We do not knowingly collect personal information from children under 13.
+          These partner SDKs may automatically process non-identifying technical metadata (such as device manufacturer, screen resolution, operating system version, coarse country-level geolocation derived from IP, and ad interaction timestamps) solely for ad delivery verification, fraud prevention, and performance telemetry.
         </p>
 
-        <h2>6. Player Rights & Contacting Us</h2>
+        <h2>5. Children's Online Privacy (COPPA & Global Standards)</h2>
         <p>
-          Under GDPR, CCPA, and global privacy frameworks, you have the right to request information about data practices or request assistance resetting progression.
+          Protecting the privacy of young players is of paramount importance to us. Our games are designed for general audiences and family-friendly play, strictly complying with the <strong>Children's Online Privacy Protection Act (COPPA)</strong>, the <strong>General Data Protection Regulation (GDPR)</strong>, and mobile store family safety guidelines.
+        </p>
+        <ul>
+          <li>We do not knowingly solicit, collect, or process personal data from children under the age of 13 (or under 16 in certain European jurisdictions).</li>
+          <li>Third-party ad networks integrated into our releases are configured to serve only contextual, child-safe advertisements without behavioral tracking or demographic profiling.</li>
+          <li>If you believe a child has provided us with personal information, please contact us immediately, and we will take prompt steps to verify and permanently delete such records.</li>
+        </ul>
+
+        <h2>6. Global Player Rights (GDPR, UK GDPR & CCPA/CPRA)</h2>
+        <p>
+          Depending on your location, you hold specific legal rights regarding data protection:
+        </p>
+        <ul>
+          <li><strong>EEA & UK Players (GDPR):</strong> You have the right to request access to, rectification of, or erasure of any technical telemetry processed by our partners, and the right to object to or restrict processing based on legitimate interest.</li>
+          <li><strong>California Residents (CCPA / CPRA):</strong> You have the right to know what categories of data are collected and to request deletion. <em>We do not sell or share personal information for cross-context behavioral advertising.</em></li>
+          <li><strong>Non-Discrimination:</strong> We will never discriminate against you, diminish your gameplay experience, or alter in-game mechanics for exercising your privacy rights.</li>
+        </ul>
+
+        <h2>7. Data Security & Storage Integrity</h2>
+        <p>
+          We employ industry-standard security safeguards. Web communications to our portal and third-party APIs are encrypted via Transport Layer Security (TLS/HTTPS). Offline local persistence files utilize checksum verification and encrypted storage to protect against corruption and unauthorized tampering.
+        </p>
+
+        <h2>8. Changes to This Privacy Policy</h2>
+        <p>
+          We may periodically update this Privacy Policy to reflect game updates, new platform integrations, or evolving regulatory standards. Any modifications will be posted directly to this page with an updated "Effective Date." We encourage players to review this policy occasionally.
+        </p>
+
+        <h2>9. Contact the Developer</h2>
+        <p>
+          If you have questions, feedback, or data requests regarding this Privacy Policy or our games, you can contact the independent developer directly:
         </p>
         <p>
-          For any privacy questions, contact the developer at:  
-          <a href="mailto:support@indiemobilegames.com">support@indiemobilegames.com</a> (or reach out via our GitHub profile: <a href="https://github.com/BrijeshAhervar" target="_blank" rel="noopener">github.com/BrijeshAhervar</a>).
+          <strong>Developer:</strong> Brijesh Ahervar (Indie Mobile Games)<br>
+          <strong>Official Contact Email:</strong> <a href="mailto:ahervarbrijesh@gmail.com">ahervarbrijesh@gmail.com</a><br>
+          <strong>GitHub Profile:</strong> <a href="https://github.com/BrijeshAhervar" target="_blank" rel="noopener">github.com/BrijeshAhervar</a><br>
+          <strong>Official Portal:</strong> <a href="https://brijeshahervar.github.io/Indie-Mobile-Games/">https://brijeshahervar.github.io/Indie-Mobile-Games/</a>
         </p>
       </div>
     </section>
 
-    <!-- TAB 3: TERMS OF SERVICE -->
+    <!-- TAB 3: TERMS OF SERVICE (COMMERCIAL STUDIO GRADE) -->
     <section id="terms" class="content-panel">
       <div class="legal-card">
         <div class="legal-header">
           <h1 class="legal-title">Terms of Service</h1>
-          <p class="legal-meta">Last Updated: October 2026 | Indie Mobile Games</p>
+          <p class="legal-meta">Last Updated: November 18, 2026 | Indie Mobile Games</p>
         </div>
 
         <h2>1. Acceptance of Terms</h2>
         <p>
-          By downloading, installing, or playing <strong>Wrong Tap</strong> or any games released by <strong>Indie Mobile Games</strong>, you agree to these Terms of Service.
+          By downloading, accessing, installing, browsing, or playing <strong>Wrong Tap</strong> (formerly "Don't Touch Bubble") or any interactive entertainment titles published by <strong>Brijesh Ahervar / Indie Mobile Games</strong> ("we", "us", or "our"), you confirm that you have read, understood, and agree to be bound by these Terms of Service. If you do not agree to these terms, please discontinue access and uninstall the game.
         </p>
 
-        <h2>2. Intellectual Property</h2>
+        <h2>2. Limited End-User License</h2>
         <p>
-          All artwork, game mechanics, soundscapes, character avatars, code, and logos in Wrong Tap are the intellectual property of <strong>Brijesh Ahervar</strong> and Indie Mobile Games. You may not decompile, reverse engineer, or redistribute our assets without explicit written permission.
+          Subject to your ongoing compliance with these Terms, Indie Mobile Games grants you a personal, non-exclusive, non-transferable, non-sublicensable, revocable limited license to download, access, and play the Game for your personal, non-commercial entertainment on supported devices and web browsers.
         </p>
 
-        <h2>3. Fair Gameplay & Virtual Currency</h2>
+        <h2>3. Intellectual Property Rights</h2>
         <p>
-          Coins, gems, and power-up charges earned within Wrong Tap are purely virtual goods intended for entertainment. They carry no real-world monetary value and cannot be exchanged for cash.
+          All intellectual property rights in and to <em>Wrong Tap</em>—including but not limited to source code, algorithms, game mechanics, 2D vector sprites, character designs, UI themes, animations, procedural sound synthesis engines, audio loops, promotional visual assets, and studio logos—are the sole exclusive property of <strong>Brijesh Ahervar</strong> and Indie Mobile Games.
+        </p>
+        <p>
+          You agree not to copy, decompile, reverse engineer, disassemble, modify, derive source code from, republish, or redistribute any game software or artistic assets without prior express written authorization.
         </p>
 
-        <h2>4. Disclaimer of Warranties</h2>
+        <h2>4. Prohibited Conduct & Fair Play</h2>
         <p>
-          Our games are provided on an "AS IS" and "AS AVAILABLE" basis. While we strive for zero bugs and smooth 60 FPS performance, we do not warrant that gameplay will be uninterrupted on all hardware configurations.
+          To ensure an enjoyable, equitable experience for all players, you agree not to:
+        </p>
+        <ul>
+          <li>Use cheats, automation software, bots, hacks, memory injectors, or unauthorized third-party tools to manipulate game scores, leaderboard rankings, or virtual currency.</li>
+          <li>Interfere with, bypass, disable, or tamper with security measures, ad delivery frameworks, or platform APIs.</li>
+          <li>Exploit game bugs, glitches, or vulnerabilities for unfair score or progression advantages.</li>
+          <li>Use the game or our showcase portal for any unlawful, defamatory, or fraudulent purpose.</li>
+        </ul>
+
+        <h2>5. Virtual Items & In-Game Economy</h2>
+        <p>
+          <em>Wrong Tap</em> may include virtual currency (such as coins and stars) and consumable virtual items (such as Shield, Freeze, and Magnet power-up charges). You acknowledge and agree that:
+        </p>
+        <ul>
+          <li>Virtual items and currencies are licensed, not sold. They remain purely virtual gameplay tokens with zero real-world cash or monetary value.</li>
+          <li>Virtual goods cannot be redeemed, sold, gifted, or exchanged for real currency, goods, or services outside the Game.</li>
+          <li>Virtual progression data stored locally on your device may be subject to loss if you uninstall the app or clear browser storage data.</li>
+        </ul>
+
+        <h2>6. Third-Party Platforms & External Links</h2>
+        <p>
+          The Game may be distributed through or embedded within third-party gaming platforms, portals, or app stores (including <strong>CrazyGames</strong>, <strong>Itch.io</strong>, and <strong>Google Play</strong>). Your access through these platforms is also subject to their respective terms of service and community standards. We are not responsible for the content, privacy practices, or uptime of third-party web portals or external links.
+        </p>
+
+        <h2>7. Disclaimer of Warranties</h2>
+        <p>
+          THE GAME AND ALL ASSOCIATED SERVICES ARE PROVIDED ON AN <strong>"AS IS"</strong> AND <strong>"AS AVAILABLE"</strong> BASIS WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED. TO THE FULLEST EXTENT PERMISSIBLE UNDER APPLICABLE LAW, INDIE MOBILE GAMES DISCLAIMS ALL WARRANTIES, INCLUDING IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+        </p>
+        <p>
+          While we test for performance and stability, we do not warrant that the Game will be entirely error-free, that defects will be corrected instantaneously, or that gameplay will run without interruption on all hardware or browser configurations.
+        </p>
+
+        <h2>8. Limitation of Liability</h2>
+        <p>
+          TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL BRIJESH AHERVAR OR INDIE MOBILE GAMES BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES (INCLUDING LOSS OF DATA, DEVICE DAMAGE, OR GAMEPLAY INTERRUPTIONS) ARISING OUT OF OR IN CONNECTION WITH YOUR USE OR INABILITY TO USE THE GAME, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+        </p>
+
+        <h2>9. Termination</h2>
+        <p>
+          These Terms of Service remain effective until terminated. We reserve the right to suspend, terminate, or restrict your license and access to the Game at our sole discretion, without prior notice, if you breach any provision of these Terms or engage in prohibited conduct.
+        </p>
+
+        <h2>10. Governing Law & Dispute Resolution</h2>
+        <p>
+          These Terms shall be governed by and construed in accordance with the laws of India, without regard to its conflict of law principles. Any dispute arising under or in connection with these Terms shall first be attempted to be resolved amicably through direct communication with the developer.
+        </p>
+
+        <h2>11. Contact Information</h2>
+        <p>
+          For any questions, concerns, or legal notices regarding these Terms of Service, please contact:
+        </p>
+        <p>
+          <strong>Indie Mobile Games</strong><br>
+          <strong>Attn:</strong> Brijesh Ahervar<br>
+          <strong>Official Contact Email:</strong> <a href="mailto:ahervarbrijesh@gmail.com">ahervarbrijesh@gmail.com</a><br>
+          <strong>Official Portal:</strong> <a href="https://brijeshahervar.github.io/Indie-Mobile-Games/">https://brijeshahervar.github.io/Indie-Mobile-Games/</a>
         </p>
       </div>
     </section>
 
-    <!-- TAB 4: CREDITS -->
+    <!-- TAB 4: CREDITS (TEMPORARILY DISABLED) -->
+    <!--
     <section id="credits" class="content-panel">
       <div class="legal-card">
         <div class="legal-header">
           <h1 class="legal-title">Game Credits & Acknowledgments</h1>
           <p class="legal-meta">The creators, tools, and engines behind Wrong Tap</p>
         </div>
-
         <div class="features-grid" style="margin-top: 24px;">
           <div class="feature-card">
             <div class="feature-icon">👨‍💻</div>
             <h4 class="feature-title">Lead Developer & Creator</h4>
             <p class="feature-desc"><strong>Brijesh Ahervar</strong><br>Game architecture, level design, reflex mechanics, and artistic vision.</p>
           </div>
-          <div class="feature-card">
-            <div class="feature-icon">🤖</div>
-            <h4 class="feature-title">AI Pair Programming</h4>
-            <p class="feature-desc"><strong>Google Antigravity AI</strong><br>Zero-allocation object pooling, state machine systems, and UI optimization.</p>
-          </div>
-          <div class="feature-card">
-            <div class="feature-icon">🎵</div>
-            <h4 class="feature-title">Sound Synthesis Engine</h4>
-            <p class="feature-desc">Real-time procedural PCM sound effects, pitch-scaled combo audio, and dynamic celebratory audio.</p>
-          </div>
-          <div class="feature-card">
-            <div class="feature-icon">⚙️</div>
-            <h4 class="feature-title">Engine & Framework</h4>
-            <p class="feature-desc"><strong>Unity Engine</strong> (URP 2D)<br>Optimized WebGL and mobile touch responsiveness.</p>
-          </div>
         </div>
       </div>
     </section>
-
+    -->
   </main>
 
   <!-- Footer -->
@@ -680,8 +759,7 @@
     <p>
       <a href="#showcase" onclick="setActiveTab('showcase')">Games</a> &bull; 
       <a href="#privacy" onclick="setActiveTab('privacy')">Privacy Policy</a> &bull; 
-      <a href="#terms" onclick="setActiveTab('terms')">Terms of Service</a> &bull; 
-      <a href="#credits" onclick="setActiveTab('credits')">Credits</a>
+      <a href="#terms" onclick="setActiveTab('terms')">Terms of Service</a>
     </p>
   </footer>
 
@@ -706,15 +784,19 @@
     // Initialize from URL hash (e.g., #privacy or #terms)
     window.addEventListener('DOMContentLoaded', () => {
       const hash = window.location.hash.replace('#', '');
-      if (hash && (hash === 'showcase' || hash === 'privacy' || hash === 'terms' || hash === 'credits')) {
+      if (hash && (hash === 'showcase' || hash === 'privacy' || hash === 'terms')) {
         setActiveTab(hash);
+      } else if (hash === 'credits') {
+        setActiveTab('showcase');
       }
     });
 
     window.addEventListener('hashchange', () => {
       const hash = window.location.hash.replace('#', '');
-      if (hash && (hash === 'showcase' || hash === 'privacy' || hash === 'terms' || hash === 'credits')) {
+      if (hash && (hash === 'showcase' || hash === 'privacy' || hash === 'terms')) {
         setActiveTab(hash);
+      } else if (hash === 'credits') {
+        setActiveTab('showcase');
       }
     });
   </script>
